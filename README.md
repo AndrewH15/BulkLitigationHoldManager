@@ -87,8 +87,7 @@ BulkLitigationHoldManager/
 - Microsoft 365 GCC E3/E5 (`ENTERPRISEPACK_GOV`, `ENTERPRISEPREMIUM_GOV`)
 - Education plans (`ENTERPRISEPACK_STUDENT`, etc.)
 
-**Compliance Add-ons:**
-- Microsoft 365 E5 Compliance (`INFORMATION_PROTECTION_COMPLIANCE`)
+> **Note**: Only licenses with **native litigation hold support** are included. Addon licenses that require a base Exchange license for litigation hold functionality are excluded to ensure proper compliance.
 
 ## ⚙️ Configuration
 
