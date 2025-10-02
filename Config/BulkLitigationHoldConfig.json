@@ -1,0 +1,260 @@
+{
+  "LicenseConfiguration": {
+    "Description": "License mappings for litigation hold eligibility - optimised for large enterprise environments",
+    "LastUpdated": "2025-10-02",
+    "LitigationHoldEligibleLicenses": {
+      "Exchange_Plans": {
+        "EXCHANGEENTERPRISE": {
+          "DisplayName": "Exchange Online Plan 2",
+          "LitigationHoldSupported": true,
+          "Priority": "High",
+          "Notes": "Full Exchange Online features including litigation hold"
+        },
+        "EXCHANGEDESKLESS": {
+          "DisplayName": "Exchange Online Kiosk",
+          "LitigationHoldSupported": true,
+          "Priority": "Medium",
+          "Notes": "Limited Exchange Online with litigation hold capability"
+        },
+        "EXCHANGEESSENTIALS": {
+          "DisplayName": "Exchange Online Essentials",
+          "LitigationHoldSupported": true,
+          "Priority": "Medium",
+          "Notes": "Basic Exchange Online with compliance features"
+        }
+      },
+      "Microsoft365_Plans": {
+        "ENTERPRISEPACK": {
+          "DisplayName": "Microsoft 365 E3",
+          "LitigationHoldSupported": true,
+          "Priority": "High",
+          "Notes": "Full Microsoft 365 E3 with advanced compliance"
+        },
+        "ENTERPRISEPREMIUM": {
+          "DisplayName": "Microsoft 365 E5",
+          "LitigationHoldSupported": true,
+          "Priority": "Very High",
+          "Notes": "Premium Microsoft 365 with full compliance suite"
+        },
+        "SPE_E3": {
+          "DisplayName": "Microsoft 365 E3 (New Commerce)",
+          "LitigationHoldSupported": true,
+          "Priority": "High",
+          "Notes": "Microsoft 365 E3 under New Commerce Experience"
+        },
+        "SPE_E5": {
+          "DisplayName": "Microsoft 365 E5 (New Commerce)",
+          "LitigationHoldSupported": true,
+          "Priority": "Very High",
+          "Notes": "Microsoft 365 E5 under New Commerce Experience"
+        },
+        "SPB": {
+          "DisplayName": "Microsoft 365 Business Premium",
+          "LitigationHoldSupported": true,
+          "Priority": "Medium",
+          "Notes": "Business premium with compliance features"
+        },
+        "SPE_F1": {
+          "DisplayName": "Microsoft 365 F1",
+          "LitigationHoldSupported": true,
+          "Priority": "Low",
+          "Notes": "Frontline worker license with basic compliance"
+        }
+      },
+      "Office365_Plans": {
+        "STANDARDPACK": {
+          "DisplayName": "Office 365 E1",
+          "LitigationHoldSupported": true,
+          "Priority": "Medium",
+          "Notes": "Office 365 E1 with Exchange Online Plan 1"
+        },
+        "STANDARDWOFFPACK": {
+          "DisplayName": "Office 365 E2",
+          "LitigationHoldSupported": true,
+          "Priority": "Medium",
+          "Notes": "Office 365 E2 with Exchange Online Plan 1"
+        },
+        "ENTERPRISEPACKLRG": {
+          "DisplayName": "Office 365 E3",
+          "LitigationHoldSupported": true,
+          "Priority": "High",
+          "Notes": "Office 365 E3 with Exchange Online Plan 2"
+        },
+        "ENTERPRISEWITHSCAL": {
+          "DisplayName": "Office 365 E4",
+          "LitigationHoldSupported": true,
+          "Priority": "High",
+          "Notes": "Legacy Office 365 E4 with full features"
+        }
+      },
+      "Education_Plans": {
+        "STANDARDWOFFPACK_IW_STUDENT": {
+          "DisplayName": "Office 365 Education E1 for Students",
+          "LitigationHoldSupported": true,
+          "Priority": "Low",
+          "Notes": "Education license with compliance features"
+        },
+        "ENTERPRISEPACK_STUDENT": {
+          "DisplayName": "Microsoft 365 A3 for Students",
+          "LitigationHoldSupported": true,
+          "Priority": "Medium",
+          "Notes": "Student license with advanced features"
+        },
+        "ENTERPRISEPREMIUM_STUDENT": {
+          "DisplayName": "Microsoft 365 A5 for Students",
+          "LitigationHoldSupported": true,
+          "Priority": "High",
+          "Notes": "Premium student license with full compliance"
+        }
+      },
+      "Government_Plans": {
+        "ENTERPRISEPACK_GOV": {
+          "DisplayName": "Microsoft 365 GCC E3",
+          "LitigationHoldSupported": true,
+          "Priority": "High",
+          "Notes": "Government Community Cloud E3"
+        },
+        "ENTERPRISEPREMIUM_GOV": {
+          "DisplayName": "Microsoft 365 GCC E5",
+          "LitigationHoldSupported": true,
+          "Priority": "Very High",
+          "Notes": "Government Community Cloud E5"
+        },
+        "ENTERPRISEPACK_GCCHIGH": {
+          "DisplayName": "Microsoft 365 GCC High E3",
+          "LitigationHoldSupported": true,
+          "Priority": "High",
+          "Notes": "Government Community Cloud High E3"
+        }
+      },
+      "Compliance_AddOns": {
+        "INFORMATION_PROTECTION_COMPLIANCE": {
+          "DisplayName": "Microsoft 365 E5 Compliance",
+          "LitigationHoldSupported": false,
+          "Priority": "N/A",
+          "Notes": "Compliance add-on that requires base Exchange license for litigation hold functionality"
+        },
+        "THREAT_INTELLIGENCE": {
+          "DisplayName": "Microsoft 365 E5 Security",
+          "LitigationHoldSupported": false,
+          "Priority": "N/A",
+          "Notes": "Security-focused, requires Exchange license for litigation hold"
+        },
+        "ATP_ENTERPRISE": {
+          "DisplayName": "Microsoft Defender for Office 365",
+          "LitigationHoldSupported": false,
+          "Priority": "N/A",
+          "Notes": "Security add-on, requires Exchange license for litigation hold"
+        }
+      }
+    },
+    "ExcludedLicenses": {
+      "Basic_Plans": {
+        "EXCHANGESTANDARD": {
+          "DisplayName": "Exchange Online Plan 1",
+          "LitigationHoldSupported": false,
+          "Reason": "Plan 1 does not include litigation hold features"
+        },
+        "OFFICESUBSCRIPTION": {
+          "DisplayName": "Microsoft 365 Apps for Enterprise",
+          "LitigationHoldSupported": false,
+          "Reason": "Apps-only license without Exchange Online"
+        }
+      },
+      "Teams_Only": {
+        "TEAMS_EXPLORATORY": {
+          "DisplayName": "Microsoft Teams Exploratory",
+          "LitigationHoldSupported": false,
+          "Reason": "Teams-only license without Exchange mailbox"
+        }
+      }
+    }
+  },
+  "ProcessingConfiguration": {
+    "Performance": {
+      "DefaultBatchSize": 500,
+      "MaxBatchSize": 2000,
+      "RecommendedConcurrentJobs": 10,
+      "MaxConcurrentJobs": 25,
+      "LargeEnvironmentThreshold": 50000,
+      "MemoryCleanupInterval": 10
+    },
+    "Safety": {
+      "DefaultMaxErrors": 100,
+      "RequireConfirmationThreshold": 1000,
+      "DryRunRecommendedThreshold": 5000,
+      "AutoBackupBeforeChanges": true
+    },
+    "Logging": {
+      "DefaultLogLevel": "Standard",
+      "MaxLogFileSize": "100MB",
+      "LogRetentionDays": 90,
+      "DetailedProgressInterval": 100
+    }
+  },
+  "OrganisationSettings": {
+    "ComplianceRequirements": {
+      "AutoEnableLitigationHold": true,
+      "RequireManagerApproval": false,
+      "NotificationEmails": [],
+      "AuditLogRetention": "10 years",
+      "ComplianceOfficerNotification": true
+    },
+    "ExclusionPatterns": {
+      "ServiceAccounts": [
+        "*service*@*",
+        "*admin*@*",
+        "*svc*@*",
+        "*system*@*"
+      ],
+      "TestAccounts": [
+        "*test*@*",
+        "*demo*@*",
+        "*sample*@*"
+      ],
+      "TemporaryAccounts": [
+        "*temp*@*",
+        "*tmp*@*"
+      ]
+    }
+  },
+  "ReportingConfiguration": {
+    "StandardReports": {
+      "ExecutionSummary": {
+        "Enabled": true,
+        "IncludeDetails": true,
+        "Format": "CSV"
+      },
+      "ErrorReport": {
+        "Enabled": true,
+        "DetailLevel": "Full",
+        "IncludeStackTrace": false
+      },
+      "ComplianceAudit": {
+        "Enabled": true,
+        "IncludeUserDetails": true,
+        "IncludeLicenseInfo": true
+      }
+    },
+    "CustomFields": {
+      "IncludeDepartment": false,
+      "IncludeManager": false,
+      "IncludeLastLogon": false,
+      "IncludeCreatedDate": true
+    }
+  },
+  "APIConfiguration": {
+    "GraphAPI": {
+      "BatchSize": 999,
+      "RequestTimeout": 300,
+      "RetryAttempts": 3,
+      "BackoffMultiplier": 2
+    },
+    "ExchangeOnline": {
+      "BatchSize": 100,
+      "RequestTimeout": 180,
+      "RetryAttempts": 5,
+      "ThrottlingDelay": 1000
+    }
+  }
+}
